@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2016-11-07T10:02:06.774-05:00" name="BPPThing2" projectName="" published="false" tags="Applications:BrowserPropertyPush" thingTemplate="BrowserPropertyPushTemplate" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2016-11-07T10:02:06.774-05:00" name="BPPThing2" projectName="" published="false" tags="Applications:BrowserPropertyPush;Version:1.1" thingTemplate="BrowserPropertyPushTemplate" valueStream="">
             <Owner name="KenS" type="User"/>
             <avatar/>
             <DesignTimePermissions>

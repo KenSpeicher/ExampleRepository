@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="false" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" homeMashup="" lastModifiedDate="2016-11-07T10:02:06.603-05:00" name="BPPMashup" projectName="" rows="0.0" tags="Applications:BrowserPropertyPush">
+            <Owner name="KenS" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions/>
+            <Things>
+                <Thing>BPPTimer</Thing>
+            </Things>
+            <ThingShapes/>
+            <ThingTemplates>
+                <ThingTemplate>BrowserPropertyPushTemplate</ThingTemplate>
+            </ThingTemplates>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Left" : 10,
+        "ShowDataLoading" : true,
+        "ResponsiveLayout" : false,
+        "Z-index" : 10,
+        "Text" : "Browser Property Push Mashup",
+        "__TypeDisplayName" : "label",
+        "ToolTipField" : "",
+        "Area" : "UI",
+        "Type" : "label",
+        "Alignment" : "left",
+        "Top" : 10,
+        "Visible" : true,
+        "DisplayName" : "",
+        "Style" : "DefaultLabelStyle",
+        "Height" : 22,
+        "Id" : "label-1",
+        "Width" : 185
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Left" : 10,
+        "ListBackgroundStyle" : "DefaultListBackgroundStyle",
+        "ShowDataLoading" : true,
+        "Label" : "Select a Thing",
+        "Alignment" : "left",
+        "DropdownStyle" : "DefaultDropdownStyle",
+        "DisplayField" : "name",
+        "Visible" : true,
+        "DisplayName" : "dhxlist-2",
+        "Height" : 28,
+        "ListItemSelectedStyle" : "DefaultListItemSelectedStyle",
+        "Width" : 110,
+        "DropdownButtonStyle" : "DefaultDropdownButtonStyle",
+        "ClearIfNoSelection" : false,
+        "ListItemHoverStyle" : "DefaultListItemHoverStyle",
+        "ListLabelStyle" : "DefaultWidgetLabelStyle",
+        "MultiSelect" : false,
+        "__supportsLabel" : true,
+        "ResponsiveLayout" : false,
+        "LabelAlignment" : "left",
+        "Z-index" : 10,
+        "HeightOfDropdownView" : 200,
+        "View" : "dropdown",
+        "__TypeDisplayName" : "dhxlist",
+        "RowHeight" : 28,
+        "ListItemStyle" : "DefaultListItemStyle",
+        "NumberOfItemsInDropdownView" : 6,
+        "Area" : "UI",
+        "Type" : "dhxlist",
+        "Top" : 45,
+        "DropdownSelectedStyle" : "DefaultDropdownSelectedStyle",
+        "Id" : "dhxlist-2",
+        "ListItemAlternateStyle" : "DefaultListItemAlternateStyle",
+        "AutoSelectFirstRow" : true
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Intervals" : 10,
+        "LabelDisplayMode" : "inside",
+        "Legend" : "",
+        "GaugeBorder" : 20,
+        "TickStyle" : "DefaultGaugeTickStyle",
+        "Left" : 10,
+        "ShowDataLoading" : true,
+        "Aperture" : 270,
+        "ValueDigits" : 3,
+        "LegendDisplayMode" : "bottom",
+        "ToolTipField" : "",
+        "ValueFormatter_StateParameters" : [ ],
+        "ValueStyle" : "DefaultGaugeValueStyle",
+        "CenterStyle" : "DefaultGaugeCenterStyle",
+        "MinorTickLength" : 4,
+        "FormatNeedle" : true,
+        "MinValue" : 0,
+        "Visible" : true,
+        "DisplayName" : "gauge-3",
+        "IntervalsPerLabel" : 2,
+        "Height" : 200,
+        "LabelDecimals" : 0,
+        "ValueDecimals" : 0,
+        "LegendStyle" : "DefaultGaugeLegendStyle",
+        "Width" : 200,
+        "GaugeStyle" : "DefaultGaugeStyle",
+        "NeedleStyle" : "DefaultGaugeNeedleStyle",
+        "RingWidth" : 10,
+        "ResponsiveLayout" : false,
+        "GaugeBorderStyle" : "DefaultGaugeBorderStyle",
+        "Z-index" : 10,
+        "LabelStyle" : "DefaultGaugeLabelStyle",
+        "MaxValue" : 100,
+        "__TypeDisplayName" : "gauge",
+        "TickLength" : 8,
+        "Area" : "UI",
+        "Type" : "gauge",
+        "GaugeFaceStyle" : "DefaultGaugeFaceStyle",
+        "Top" : 130,
+        "ReferenceAngle" : 225,
+        "ValueDisplayMode" : "bottom",
+        "MinorTicks" : 4,
+        "CenterDiameter" : 20,
+        "Id" : "gauge-3",
+        "NeedleDiameter" : 10,
+        "LabelDigits" : 3
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Left" : 10,
+        "ShowDataLoading" : true,
+        "ResponsiveLayout" : false,
+        "Z-index" : 10,
+        "Text" : "Property 1 Value",
+        "__TypeDisplayName" : "label",
+        "ToolTipField" : "",
+        "Area" : "UI",
+        "Type" : "label",
+        "Alignment" : "center",
+        "Top" : 105,
+        "Visible" : true,
+        "DisplayName" : "label-4",
+        "Style" : "DefaultLabelStyle",
+        "Height" : 22,
+        "Id" : "label-4",
+        "Width" : 200
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "ReadOnly" : false,
+        "RadioButtonStyle" : "DefaultRadioButtonStyle",
+        "Left" : 134,
+        "RadioButtonDepressedStyle" : "DefaultRadioButtonDepressedStyle",
+        "ShowDataLoading" : true,
+        "ResponsiveLayout" : false,
+        "Z-index" : 10,
+        "ButtonStates" : "BPPTimerEnabledStates",
+        "Orientation" : "vert",
+        "__TypeDisplayName" : "radiobuttonlist",
+        "Area" : "UI",
+        "Type" : "radiobuttonlist",
+        "Top" : 60,
+        "Visible" : true,
+        "DisplayName" : "radiobuttonlist-6",
+        "Height" : 43,
+        "Id" : "radiobuttonlist-6",
+        "Width" : 72
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Left" : 120,
+        "ShowDataLoading" : true,
+        "ResponsiveLayout" : false,
+        "Z-index" : 10,
+        "Text" : "Auto Change",
+        "__TypeDisplayName" : "label",
+        "ToolTipField" : "",
+        "Area" : "UI",
+        "Type" : "label",
+        "Alignment" : "center",
+        "Top" : 35,
+        "Visible" : true,
+        "DisplayName" : "label-7",
+        "Style" : "DefaultLabelStyle",
+        "Height" : 22,
+        "Id" : "label-7",
+        "Width" : 100
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 7,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "BGImageSize" : "auto",
+      "Height" : 343,
+      "Width" : 224,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : false,
+      "Title" : "",
+      "Columns" : 0,
+      "Z-index" : 10,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "mashup",
+      "EnableParameterEditing" : false,
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "QueryImplementingThingsWithData",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "ThingTemplates_BrowserPropertyPushTemplate",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "f0775f38-828f-4481-a017-0768860003a1",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "GetProperties",
+    "EventTriggerSection" : "ThingTemplates_BrowserPropertyPushTemplate",
+    "EventHandlerId" : "DynamicThingTemplates_BrowserPropertyPushTemplate",
+    "EventTriggerEvent" : "SelectedRowsChanged",
+    "Id" : "45cc1a6a-88ce-4827-95a6-6dbc94d7fc83",
+    "EventTriggerId" : "QueryImplementingThingsWithData",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "IsTimerEnabled",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_BPPTimer",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "6614cae5-7985-4f70-a2a7-d2d99ed1d71a",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "ChangeTimerStatus",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_BPPTimer",
+    "EventTriggerEvent" : "SelectionChanged",
+    "Id" : "fae2a14f-213c-4bcb-98fd-424809e4b3c9",
+    "EventTriggerId" : "radiobuttonlist-6",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "IsTimerEnabled",
+    "EventTriggerSection" : "Things_BPPTimer",
+    "EventHandlerId" : "Things_BPPTimer",
+    "EventTriggerEvent" : "ServiceInvokeCompleted",
+    "Id" : "d36f8f20-3358-4449-b4a1-0354f252af97",
+    "EventTriggerId" : "ChangeTimerStatus",
+    "EventHandlerArea" : "Data"
+  } ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "QueryImplementingThingsWithData",
+    "Id" : "9cbf9018-a963-4374-b336-057a71f63365",
+    "SourceSection" : "ThingTemplates_BrowserPropertyPushTemplate",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "dhxlist-2"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "DynamicThingTemplates_BrowserPropertyPushTemplate",
+    "SourceId" : "QueryImplementingThingsWithData",
+    "Id" : "9544762a-ec9a-44c2-91c5-5ec427708353",
+    "SourceSection" : "ThingTemplates_BrowserPropertyPushTemplate",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "value",
+      "TargetPropertyType" : "Entity",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "name"
+    } ],
+    "TargetId" : "EntityName"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetProperties",
+    "Id" : "f3c619b8-9ba6-464e-b6e4-d326752f6eb7",
+    "SourceSection" : "DynamicThingTemplates_BrowserPropertyPushTemplate",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INTEGER",
+      "TargetPropertyBaseType" : "NUMBER",
+      "SourceProperty" : "Property1"
+    } ],
+    "TargetId" : "gauge-3"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "IsTimerEnabled",
+    "Id" : "ddb28cd3-403a-4777-ad1b-dd6098f64323",
+    "SourceSection" : "Things_BPPTimer",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "SelectedValue",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "BOOLEAN",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "result"
+    } ],
+    "TargetId" : "radiobuttonlist-6"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_BPPTimer",
+    "SourceId" : "radiobuttonlist-6",
+    "Id" : "199aea08-82fd-492f-9fbe-3fd52c71a85c",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "NewStatus",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "BOOLEAN",
+      "SourceProperty" : "SelectedValue"
+    } ],
+    "TargetId" : "ChangeTimerStatus"
+  } ],
+  "Data" : {
+    "DynamicThingTemplates_BrowserPropertyPushTemplate" : {
+      "EntityType" : "DynamicThingTemplates",
+      "Services" : [ {
+        "Target" : "GetProperties",
+        "Parameters" : {
+          "useWebsockets" : true
+        },
+        "APIMethod" : "get",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "b150ecc7-62de-40bb-901d-f2234f826f99",
+        "Name" : "GetProperties"
+      } ],
+      "EntityName" : "BrowserPropertyPushTemplate",
+      "Id" : "e6ee4e0c-38a1-40c2-842a-e9b57d80f0aa",
+      "DataName" : "DynamicThingTemplates_BrowserPropertyPushTemplate"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Things_BPPTimer" : {
+      "EntityType" : "Things",
+      "Services" : [ {
+        "Target" : "IsTimerEnabled",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "56a08f11-1962-4a89-994c-d8a603d10e4e",
+        "Name" : "IsTimerEnabled"
+      }, {
+        "Target" : "ChangeTimerStatus",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "9acbc5ff-08ce-484d-9d30-22a0714887e5",
+        "Name" : "ChangeTimerStatus"
+      } ],
+      "EntityName" : "BPPTimer",
+      "Id" : "b2dbbf20-1d3c-4a9a-9604-9af47b907750",
+      "DataName" : "Things_BPPTimer"
+    },
+    "ThingTemplates_BrowserPropertyPushTemplate" : {
+      "EntityType" : "ThingTemplates",
+      "Services" : [ {
+        "Target" : "QueryImplementingThingsWithData",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "1034d783-1e81-46d6-8202-91bbb2d6210e",
+        "Name" : "QueryImplementingThingsWithData"
+      } ],
+      "EntityName" : "BrowserPropertyPushTemplate",
+      "Id" : "09340266-c82a-4297-b170-cac41319c4a7",
+      "DataName" : "ThingTemplates_BrowserPropertyPushTemplate"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;documentation : updated&#10;" timestamp="2016-09-16T12:13:41.092-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="documentation : updated&#10;" timestamp="2016-09-16T12:14:40.146-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-09-16T12:15:10.128-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-09-16T12:17:02.848-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-09-16T12:17:20.544-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-09-16T12:17:22.846-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-09-16T12:19:15.453-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-09-16T12:20:07.662-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-10-03T13:37:03.861-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:14:54.055-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:15:40.481-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:16:39.179-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:17:17.115-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:17:21.328-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:17:56.477-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2016-11-07T10:02:06.603-05:00" user="KenS"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

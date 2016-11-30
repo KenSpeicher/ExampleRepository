@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition description="" documentationContent="" homeMashup="" lastModifiedDate="2016-11-07T10:02:06.548-05:00" name="BPPTimerEnabledStates" projectName="" tags="Applications:BrowserPropertyPush">
+            <Owner name="KenS" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateDefinitions":[{"displayString":"Enabled","defaultStyleDefinition":"","defaultValue":"true","name":"Enabled","description":""},{"displayString":"Disabled","defaultStyleDefinition":"","defaultValue":"false","name":"Disabled","description":""},{"displayString":"Disabled","defaultStyleDefinition":"","name":"Disabled","description":""}],"stateType":"string"}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;" timestamp="2016-11-07T09:11:15.033-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:12:03.586-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:12:07.825-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2016-11-07T09:12:33.299-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2016-11-07T10:02:06.548-05:00" user="KenS"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2016-11-07T10:02:06.896-05:00" name="BPPThing1" projectName="" published="false" tags="Applications:BrowserPropertyPush" thingTemplate="BrowserPropertyPushTemplate" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2016-11-30T10:02:23.104-05:00" name="BPPThing1" projectName="" published="false" tags="Applications:BrowserPropertyPush" thingTemplate="BrowserPropertyPushTemplate" valueStream="">
             <Owner name="KenS" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -17,7 +17,9 @@
             </VisibilityPermissions>
             <ConfigurationTables/>
             <ThingShape>
-                <PropertyDefinitions/>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="TestPropAdd" ordinal="1"/>
+                </PropertyDefinitions>
                 <ServiceDefinitions/>
                 <EventDefinitions/>
                 <ServiceMappings/>
@@ -28,11 +30,14 @@
             <RemotePropertyBindings/>
             <RemoteServiceBindings/>
             <RemoteEventBindings/>
-            <AlertConfigurations/>
+            <AlertConfigurations>
+                <AlertDefinitions name="TestPropAdd"/>
+            </AlertConfigurations>
             <ImplementedShapes/>
             <ThingProperties/>
             <ConfigurationChanges>
                 <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2016-11-07T10:02:06.895-05:00" user="KenS"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : TestPropAdd : Added&#10;" timestamp="2016-11-30T10:02:23.104-05:00" user="KenS"/>
             </ConfigurationChanges>
         </Thing>
     </Things>

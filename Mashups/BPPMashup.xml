@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Mashups>
-        <Mashup aspect.isResponsive="false" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" homeMashup="" lastModifiedDate="2016-11-07T10:02:06.603-05:00" name="BPPMashup" projectName="" rows="0.0" tags="Applications:BrowserPropertyPush">
+        <Mashup aspect.isResponsive="false" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" homeMashup="" lastModifiedDate="2016-11-07T10:02:06.603-05:00" name="BPPMashup" projectName="" rows="0.0" tags="Applications:BrowserPropertyPush;Version:1.1">
             <Owner name="KenS" type="User"/>
             <avatar/>
             <DesignTimePermissions>

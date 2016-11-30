@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <StateDefinitions>
-        <StateDefinition description="" documentationContent="" homeMashup="" lastModifiedDate="2016-11-07T10:02:06.548-05:00" name="BPPTimerEnabledStates" projectName="" tags="Applications:BrowserPropertyPush">
+        <StateDefinition description="" documentationContent="" homeMashup="" lastModifiedDate="2016-11-07T10:02:06.548-05:00" name="BPPTimerEnabledStates" projectName="" tags="Applications:BrowserPropertyPush;Version:1.1">
             <Owner name="KenS" type="User"/>
             <avatar/>
             <DesignTimePermissions>

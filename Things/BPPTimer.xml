@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="TimerThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2016-11-07T10:02:06.904-05:00" name="BPPTimer" projectName="" published="false" tags="Applications:BrowserPropertyPush;Version:1.1" thingTemplate="Timer" valueStream="">
-            <Owner name="KenS" type="User"/>
+        <Thing description="" documentationContent="" effectiveThingPackage="TimerThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-03-07T14:40:53.881-05:00" name="BPPTimer" projectName="" published="false" tags="Applications:BrowserPropertyPush;Version:1.1" thingTemplate="Timer" valueStream="">
+            <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
                 <Create/>
@@ -28,7 +28,7 @@
                         <Row>
                             <runAsUser/>
                             <updateRate>1000.0</updateRate>
-                            <enabled>true</enabled>
+                            <enabled>false</enabled>
                         </Row>
                     </Rows>
                 </ConfigurationTable>
@@ -93,7 +93,8 @@
             <ImplementedShapes/>
             <ThingProperties/>
             <ConfigurationChanges>
-                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2016-11-07T10:02:06.904-05:00" user="KenS"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-03-07T14:27:54.586-05:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="documentation : updated&#10;" timestamp="2017-03-07T14:40:53.876-05:00" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
